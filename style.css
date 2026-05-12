@@ -4,6 +4,12 @@
     box-sizing: border-box; 
 }
 
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #d6a4a4;
@@ -21,10 +27,7 @@ body {
 }
 
 .herobild {
-   background: url('https://plus.unsplash.com/premium_photo-1707757442378-8cb5223916ae?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+   object-fit: cover;
    height: 500px;
    width: 100%;
 }
