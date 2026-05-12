@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d6a4a4;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.receptkort {
+    background: #FCFCFC;
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.herobild {
+   background: url('https://plus.unsplash.com/premium_photo-1707757442378-8cb5223916ae?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 500px;
+   width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 48px 64px;
+    gap: 24px;
+}
+
+.huvudrubrik {
+    color: #A10000;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.underrubrik {
+    background: #EBEBEB;
+    font-style: normal;
+    font-weight: 400;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 22px;
+    gap: 10px;
+    width: 100%;
+}
+
+.ingredienser {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.gallery-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+    gap: 24px;
+    width: 100%;
+}
+
+.gallery-item {
+    height: 467px; 
+    background-color: #D9D9D9;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.item-1 {   background-image: url('https://plus.unsplash.com/premium_photo-1707757442370-c86084c6ae0c?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); }
+.item-2 {   background-image: url('https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); }
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 16px;
+    }
+}
+
+/* Test för commit-flödet */
