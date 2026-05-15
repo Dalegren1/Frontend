@@ -15,10 +15,10 @@ body {
     background-color: #d6a4a4;
     display: flex;
     justify-content: center;
-    padding-bottom: 64px;
+    padding-bottom: 64px; 
 }
 
-.receptkort {
+.wrapper {
     background: #FCFCFC;
     width: 100%;
     max-width: 1280px;
@@ -32,10 +32,10 @@ body {
    width: 100%;
 }
 
-.container {
+.receptkort {
     display: flex;
     flex-direction: column;
-    padding: 48px 48px 64px;
+    padding:48px 48px 64px;
     gap: 24px;
 }
 
@@ -95,7 +95,7 @@ ul, ol {
 }
 
 @media (max-width: 768px) {
-    .container {
+    .receptkort {
         padding: 16px;
     }
 }
